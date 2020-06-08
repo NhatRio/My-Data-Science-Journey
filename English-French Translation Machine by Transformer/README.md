@@ -9,4 +9,4 @@ For the parameters, I set:
  + dff = 512 
  + num_heads = 8 
  
-I ran 10 epochs and it took 23'/epoch.
+I ran 10 epochs and it took 23 min/epoch.
