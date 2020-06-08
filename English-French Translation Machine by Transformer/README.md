@@ -1,4 +1,4 @@
-In this work, I build the Translation Machine from English to French by Transformer in the paper ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762).
+In this work, I build the Translation Machine from English to French by Transformer described in the paper ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762).
 
 For the data, I use the parallel corpus French-English from [European Parliament dataset version 7](https://www.statmt.org/europarl/).
 
