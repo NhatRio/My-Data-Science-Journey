@@ -3,6 +3,7 @@ In this work, I build the Translation Machine from English to French by Transfor
 For the data, I use the parallel corpus French-English from [European Parliament dataset version 7](https://www.statmt.org/europarl/).
 
 For its parameters, I set:
+ + MAX_LENGTH = 40
  + BATCH_SIZE = 64
  + BUFFER_SIZE = 20000
  + num_layers = 4
