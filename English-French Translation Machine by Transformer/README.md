@@ -11,4 +11,4 @@ For its parameters, I set:
  + dff = 512 
  + num_heads = 8 
  
-I ran 10 epochs and it took 23 mins/epoch.
+I ran 10 epochs on Colab Pro (GPU T4) and it took 23 mins each epoch.
