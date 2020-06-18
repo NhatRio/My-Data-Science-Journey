@@ -53,4 +53,43 @@ Transformer paper - [Attention Is All You Need](https://arxiv.org/abs/1706.03762
       * [Parameters vs Hyperparameters](#parameters-vs-hyperparameters)
       * [What does this have to do with the brain](#what-does-this-have-to-do-with-the-brain)
    * [Extra: Ian Goodfellow interview](#extra-ian-goodfellow-interview)
+   
+   ## Tóm tắt
+
+Phần này mình dịch từ phần tóm tắt của chính [course](https://www.coursera.org/specializations/natural-language-processing?utm_source=deeplearningai&utm_medium=institutions&utm_content=NLP_6/17_social) này trên coursera:
+
+> NLP sử dụng những thuật toán để hiểu cũng như thao tác (xử lý, điều khiển) ngôn ngữ của con người. Công nghệ này là một trong những lĩnh vực ứng dụng rộng rãi nhất của Machine Learning.  
+> Vì AI đang tiếp tục phát triển nên nó kéo theo nhu cầu về các chuyên gia có kỹ năng xây dựng các mô hình phân tích giọng nói và ngôn ngữ (analyze speech and language), phát hiện ra các dạng ngữ cảnh (uncover contextual patterns) và đưa ra những hiểu biết sâu sắc từ văn bản và âm thanh(produce insights from text and audio).
+
+> In this course, you will learn the foundations of deep learning. When you finish this class, you will:
+> - Understand the major technology trends driving Deep Learning
+> - Be able to build, train and apply fully connected deep neural networks
+> - Know how to implement efficient (vectorized) neural networks
+> - Understand the key parameters in a neural network's architecture
+>
+> This course also teaches you how Deep Learning actually works, rather than presenting only a cursory or surface-level description. So after completing it, you will be able to apply deep learning to a your own applications. If you are looking for a job in AI, after this course you will also be able to answer basic interview questions.
+
+
+
+## Introduction to deep learning
+
+> Be able to explain the major trends driving the rise of deep learning, and understand where and how it is applied today.
+
+### What is a (Neural Network) NN?
+
+- Single neuron == linear regression without applying activation(perceptron)
+- Basically a single neuron will calculate weighted sum of input(W.T*X) and then we can set a threshold to predict output in a perceptron. If weighted sum of input cross the threshold, perceptron fires and if not then perceptron doesn't predict.
+- Perceptron can take real values input or boolean values.
+- Actually, when w⋅x+b=0 the perceptron outputs 0.
+- Disadvantage of perceptron is that it only output binary values and if we try to give small change in weight and bais then perceptron can flip the output. We need some system which can modify the output slightly according to small change in weight and bias. Here comes sigmoid function in picture.
+- If we change perceptron with a sigmoid function, then we can make slight change in output.
+- e.g. output in perceptron = 0, you slightly changed weight and bias, output becomes = 1 but actual output is 0.7. In case of sigmoid, output1 = 0, slight change in weight and bias, output = 0.7. 
+- If we apply sigmoid activation function then Single neuron will act as Logistic Regression.
+-  we can understand difference between perceptron and sigmoid function by looking at sigmoid function graph.
+
+- Simple NN graph:
+  - ![](Images/Others/01.jpg)
+  - Image taken from [tutorialspoint.com](http://www.tutorialspoint.com/)
+- RELU stands for rectified linear unit is the most popular activation function right now that makes deep NNs train faster now.
+
 
