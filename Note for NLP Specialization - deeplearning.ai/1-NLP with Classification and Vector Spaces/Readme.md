@@ -13,7 +13,7 @@ Transformer paper - [Attention Is All You Need](https://arxiv.org/abs/1706.03762
 ## Mục lục
 
 * [Natural Language Processing with Classification and Vector Spaces](#neural-networks-and-deep-learning)
-   * [Mục lục](#table-of-contents)
+   * [Mục lục](#muc-luc)
    * [Tóm tắt nội dung](#course-summary)
    * [Introduction to deep learning](#introduction-to-deep-learning)
       * [What is a (Neural Network) NN?](#what-is-a-neural-network-nn)
