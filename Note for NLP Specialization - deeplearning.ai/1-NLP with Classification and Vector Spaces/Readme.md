@@ -62,7 +62,9 @@ Phần này mình dịch từ phần tóm tắt của chính [course](https://ww
 Trong Course thứ nhất này, bạn sẽ: 
 
 > a) Phân tích cảm xúc (sentiment Analysis) trên tweets với Logistic Reggression và naïve Bayes,
+
 > b) Sử dụng không gian vector để tìm ra mối liên hệ giữa các từ. Sau đó, sử dụng PCA để giảm số chiều của không gian vector và biểu diễn nó trong không gian  2-D, 3-D để chúng ta có thể quan sát được những mối liên hệ đó.
+
 > c) Viết một thuật toán đơn giản để dịch từ tiếng Anh sang tiếng Pháp bằng cách sử dụng những mô hỉnh Word Embedding đã được tính toán trước (pre-computed) và ??? nhạy cảm địa phương đối với những từ liên quan thông qua việc tìm kiếm bằng K-NN.
 
 Vui lòng chắc chắn rằng: Bạn không có vấn đề gì với việc lập trình bởi Python; bạn có kiến thức cơ bản về ML, về nhân ma trận và về xác suất có điều kiện.
