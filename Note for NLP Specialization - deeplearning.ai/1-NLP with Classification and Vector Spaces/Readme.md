@@ -59,17 +59,15 @@ Transformer paper - [Attention Is All You Need](https://arxiv.org/abs/1706.03762
 
 Phần này mình dịch từ phần tóm tắt của chính [course](https://www.coursera.org/specializations/natural-language-processing?utm_source=deeplearningai&utm_medium=institutions&utm_content=NLP_6/17_social) này trên coursera:
 
-> NLP sử dụng những thuật toán để có thể hiểu cũng như thao tác (xử lý, điều khiển) ngôn ngữ của con người. Công nghệ này là một trong những lĩnh vực ứng dụng rộng rãi nhất của Machine Learning.  
-> Vì AI đang tiếp tục phát triển nên nó kéo theo nhu cầu về các chuyên gia được trang bị những kỹ năng về xây dựng các mô hình phân tích giọng nói và ngôn ngữ (analyze speech and language), phát hiện ra các dạng ngữ cảnh (uncover contextual patterns) và đưa ra những insight từ văn bản và âm thanh (produce insights from text and audio).
+Trong Course thứ nhất này, bạn sẽ: 
 
-> In this course, you will learn the foundations of deep learning. When you finish this class, you will:
-> - Understand the major technology trends driving Deep Learning
-> - Be able to build, train and apply fully connected deep neural networks
-> - Know how to implement efficient (vectorized) neural networks
-> - Understand the key parameters in a neural network's architecture
->
-> This course also teaches you how Deep Learning actually works, rather than presenting only a cursory or surface-level description. So after completing it, you will be able to apply deep learning to a your own applications. If you are looking for a job in AI, after this course you will also be able to answer basic interview questions.
+> a) Phân tích cảm xúc (sentiment Analysis) trên tweets với Logistic Reggression và naïve Bayes,
+> b) Sử dụng không gian vector để tìm ra mối liên hệ giữa các từ. Sau đó, sử dụng PCA để giảm số chiều của không gian vector và biểu diễn nó trong không gian  2-D, 3-D để chúng ta có thể quan sát được những mối liên hệ đó.
+> c) Viết một thuật toán đơn giản để dịch từ tiếng Anh sang tiếng Pháp bằng cách sử dụng những mô hỉnh Word Embedding đã được tính toán trước (pre-computed) và ??? nhạy cảm địa phương đối với những từ liên quan thông qua việc tìm kiếm bằng K-NN.
 
+Vui lòng chắc chắn rằng: Bạn không có vấn đề gì với việc lập trình bởi Python; bạn có kiến thức cơ bản về ML, về nhân ma trận và về xác suất có điều kiện.
+
+Khi kết thúc course này, bạn sẽ có thể thiết kế được các ứng dụng NLP phục vụ cho việc hỏi đáp (question-answering) và phân tích cảm xúc (sentiment analysis), bạn có thể tạo các công cụ để dịch tiếng và tóm tắt văn bản, thậm chí xây dựng một chatbot!
 
 
 ## Introduction to deep learning
